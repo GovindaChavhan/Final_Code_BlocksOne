@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_AssignmentTask_BlocksOne.Scenario_Third">
+      <class name="tests_AssignmentTask_BlocksOne.MetaMask">
         <methods>
-          <include name="open_Browser"/>
-          <include name="remove_A_Product_FromCart"/>
-          <include name="close_Browser"/>
+          <include name="start_Browser"/>
+          <include name="openChromeExtension"/>
         </methods>
-      </class> <!-- tests_AssignmentTask_BlocksOne.Scenario_Third -->
+      </class> <!-- tests_AssignmentTask_BlocksOne.MetaMask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

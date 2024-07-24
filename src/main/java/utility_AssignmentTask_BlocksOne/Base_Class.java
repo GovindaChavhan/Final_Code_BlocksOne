@@ -20,15 +20,17 @@ public class Base_Class {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		driver = new ChromeDriver(options);
-		driver.get("https://www.amazon.in/");
+//		driver.get("https://chromewebstore.google.com/");
+//		driver.get("https://www.amazon.in/");
+		driver.get("chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#onboarding/welcome");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 	}
 
 	@AfterMethod(enabled=true)
 	public void close_Browser()
-	{
-		driver.close();
+	{       
+//		driver.quit();
 	}
 
 }
