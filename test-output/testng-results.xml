@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-24T11:10:36 IST" name="Default suite" finished-at="2024-07-24T11:13:39 IST" duration-ms="183092">
+  <suite started-at="2024-07-30T19:19:15 IST" name="Default suite" finished-at="2024-07-30T19:19:52 IST" duration-ms="37140">
     <groups>
     </groups>
-    <test started-at="2024-07-24T11:10:36 IST" name="Default test" finished-at="2024-07-24T11:13:39 IST" duration-ms="183092">
-      <class name="tests_AssignmentTask_BlocksOne.MetaMask">
-        <test-method is-config="true" signature="start_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.MetaMask@1a18644]" started-at="2024-07-24T11:10:36 IST" name="start_Browser" finished-at="2024-07-24T11:13:21 IST" duration-ms="164975" status="PASS">
+    <test started-at="2024-07-30T19:19:15 IST" name="Default test" finished-at="2024-07-30T19:19:52 IST" duration-ms="37140">
+      <class name="tests_AssignmentTask_BlocksOne.Test_FooterSection">
+        <test-method is-config="true" signature="configureFile()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:15 IST" name="configureFile" finished-at="2024-07-30T19:19:15 IST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start_Browser -->
-        <test-method signature="openChromeExtension()[pri:0, instance:tests_AssignmentTask_BlocksOne.MetaMask@1a18644]" started-at="2024-07-24T11:13:21 IST" name="openChromeExtension" finished-at="2024-07-24T11:13:39 IST" duration-ms="17821" status="PASS">
+        </test-method> <!-- configureFile -->
+        <test-method is-config="true" signature="open_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:15 IST" name="open_Browser" finished-at="2024-07-30T19:19:44 IST" duration-ms="29458" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openChromeExtension -->
-      </class> <!-- tests_AssignmentTask_BlocksOne.MetaMask -->
+        </test-method> <!-- open_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:44 IST" name="setUp" finished-at="2024-07-30T19:19:45 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_ContactNumber()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:45 IST" name="verify_ContactNumber" finished-at="2024-07-30T19:19:51 IST" duration-ms="5887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ContactNumber -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:51 IST" name="close_Browser" finished-at="2024-07-30T19:19:52 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- tests_AssignmentTask_BlocksOne.Test_FooterSection -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

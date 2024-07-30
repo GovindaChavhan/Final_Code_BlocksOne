@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_AssignmentTask_BlocksOne.MetaMask">
+      <class name="tests_AssignmentTask_BlocksOne.Test_AllElements_HP">
         <methods>
-          <include name="start_Browser"/>
-          <include name="openChromeExtension"/>
+          <include name="open_Browser"/>
+          <include name="setUp"/>
+          <include name="configureFile"/>
+          <include name="close_Browser"/>
+          <include name="verifyNextAndPreviousButtons"/>
         </methods>
-      </class> <!-- tests_AssignmentTask_BlocksOne.MetaMask -->
+      </class> <!-- tests_AssignmentTask_BlocksOne.Test_AllElements_HP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
