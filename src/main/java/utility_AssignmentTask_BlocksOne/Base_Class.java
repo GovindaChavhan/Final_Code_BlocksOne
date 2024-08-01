@@ -18,17 +18,14 @@ public class Base_Class {
 	public static WebDriver driver;
 	public static ConfigDataProvider config;
 	
-	
-	
 	@BeforeSuite
 	public void configureFile() throws FileNotFoundException
 	{
-		config = new ConfigDataProvider();
-		 
+		config = new ConfigDataProvider();	 
 	}
 
 	@BeforeMethod
-	public void open_Browser()
+	public void aopen_Browser()
 	{
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();

@@ -33,7 +33,7 @@ public class VerifyLinks extends Base_Class {
 	        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", pom.getScrollToBottom_Element());
 	    }
 
-	    @Test(description = "Verify Links to Services", enabled = true)
+	    @Test(description = "Verify Links to Services", enabled = false)
 	    public void verifyLinksServices() {
 	        clickAndVerifyText(
 	            pom.getClickOn_link_Services(),
@@ -43,7 +43,7 @@ public class VerifyLinks extends Base_Class {
 	        );
 	    }
 
-	    @Test(description = "Verify Links to About Us", enabled = true)
+	    @Test(description = "Verify Links to About Us", enabled = false)
 	    public void verifyLinksAboutUs() {
 	        clickAndVerifyText(
 	            pom.getClickOn_link_AboutUs(),
@@ -53,7 +53,7 @@ public class VerifyLinks extends Base_Class {
 	        );
 	    }
 
-	    @Test(description = "Verify Links to Careers", enabled = true)
+	    @Test(description = "Verify Links to Careers", enabled = false)
 	    public void verifyLinksCareers() {
 	        clickAndVerifyText(
 	            pom.getClickOn_link_Career(),

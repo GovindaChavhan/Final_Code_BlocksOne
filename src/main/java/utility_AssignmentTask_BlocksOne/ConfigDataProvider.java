@@ -20,6 +20,32 @@ public class ConfigDataProvider {
 			e.printStackTrace();
 		}
 	}
+	
+	public String verifyHomeMainHeading()
+	{
+		return pro.getProperty("verifyHomeMainHeading");
+	}
+	
+	
+	public String verify_exploreAllProductMainHeading()
+	{
+		return pro.getProperty("verify_exploreAllProductMainHeading");
+	}
+	
+	public String verify_Servicesweoffer_MainHeading()
+	{
+		return pro.getProperty("verify_Servicesweoffer_MainHeading");
+	}
+	
+	public String verify_ButtonKnowMore()
+	{
+		return pro.getProperty("verify_ButtonKnowMore");
+	}
+	
+	
+	
+	
+//	--------------------------------------------------------------
 	public String getProdUrl()
 	{
 		return pro.getProperty("productionUrl");

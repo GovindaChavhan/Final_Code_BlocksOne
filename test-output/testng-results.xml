@@ -1,33 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-30T19:19:15 IST" name="Default suite" finished-at="2024-07-30T19:19:52 IST" duration-ms="37140">
+  <suite started-at="2024-08-01T11:03:38 IST" name="Suite" finished-at="2024-08-01T11:05:45 IST" duration-ms="127281">
     <groups>
     </groups>
-    <test started-at="2024-07-30T19:19:15 IST" name="Default test" finished-at="2024-07-30T19:19:52 IST" duration-ms="37140">
-      <class name="tests_AssignmentTask_BlocksOne.Test_FooterSection">
-        <test-method is-config="true" signature="configureFile()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:15 IST" name="configureFile" finished-at="2024-07-30T19:19:15 IST" duration-ms="18" status="PASS">
+    <test started-at="2024-08-01T11:03:38 IST" name="Test" finished-at="2024-08-01T11:05:45 IST" duration-ms="127281">
+      <class name="tests_AssignmentTask_BlocksOne.Test_Tabs">
+        <test-method is-config="true" signature="configureFile()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:03:38 IST" name="configureFile" finished-at="2024-08-01T11:03:38 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureFile -->
-        <test-method is-config="true" signature="open_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:15 IST" name="open_Browser" finished-at="2024-07-30T19:19:44 IST" duration-ms="29458" status="PASS">
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:03:38 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:11 IST" duration-ms="32705" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open_Browser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:44 IST" name="setUp" finished-at="2024-07-30T19:19:45 IST" duration-ms="746" status="PASS">
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:11 IST" name="setUp" finished-at="2024-08-01T11:04:11 IST" duration-ms="72" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_ContactNumber()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:45 IST" name="verify_ContactNumber" finished-at="2024-07-30T19:19:51 IST" duration-ms="5887" status="PASS">
+        <test-method signature="verifyNextAndPreviousButtons()[pri:-1, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:11 IST" name="verifyNextAndPreviousButtons" description="Test functionality of Next and Previous buttons" finished-at="2024-08-01T11:04:13 IST" duration-ms="1717" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_ContactNumber -->
-        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_FooterSection@4310d43]" started-at="2024-07-30T19:19:51 IST" name="close_Browser" finished-at="2024-07-30T19:19:52 IST" duration-ms="990" status="PASS">
+        </test-method> <!-- verifyNextAndPreviousButtons -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:13 IST" name="close_Browser" finished-at="2024-08-01T11:04:14 IST" duration-ms="706" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close_Browser -->
-      </class> <!-- tests_AssignmentTask_BlocksOne.Test_FooterSection -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:14 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:20 IST" duration-ms="6125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:20 IST" name="setUp" finished-at="2024-08-01T11:04:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyIndustryWeServe()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:20 IST" name="verifyIndustryWeServe" description="Test all click functions on elements in the Industry We Serve section" finished-at="2024-08-01T11:04:22 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIndustryWeServe -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:22 IST" name="close_Browser" finished-at="2024-08-01T11:04:23 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:23 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:29 IST" duration-ms="5949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:29 IST" name="setUp" finished-at="2024-08-01T11:04:29 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLinksAboutUs()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:29 IST" name="verifyLinksAboutUs" description="Verify Links to About Us" finished-at="2024-08-01T11:04:31 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksAboutUs -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:31 IST" name="close_Browser" finished-at="2024-08-01T11:04:32 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:32 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:37 IST" duration-ms="5487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:37 IST" name="setUp" finished-at="2024-08-01T11:04:37 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLinksCareers()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:37 IST" name="verifyLinksCareers" description="Verify Links to Careers" finished-at="2024-08-01T11:04:40 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksCareers -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:40 IST" name="close_Browser" finished-at="2024-08-01T11:04:41 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:41 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:47 IST" duration-ms="6259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:47 IST" name="setUp" finished-at="2024-08-01T11:04:47 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLinksContactUs()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:47 IST" name="verifyLinksContactUs" description="Verify Links to Contact Us" finished-at="2024-08-01T11:04:49 IST" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksContactUs -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:49 IST" name="close_Browser" finished-at="2024-08-01T11:04:50 IST" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:50 IST" name="aopen_Browser" finished-at="2024-08-01T11:04:57 IST" duration-ms="6694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:57 IST" name="setUp" finished-at="2024-08-01T11:04:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLinksServices()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:57 IST" name="verifyLinksServices" description="Verify Links to Services" finished-at="2024-08-01T11:04:58 IST" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksServices -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:59 IST" name="close_Browser" finished-at="2024-08-01T11:04:59 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:04:59 IST" name="aopen_Browser" finished-at="2024-08-01T11:05:05 IST" duration-ms="5730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:05 IST" name="setUp" finished-at="2024-08-01T11:05:05 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_DiscoverServices()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:05 IST" name="verify_DiscoverServices" description="Discover Services actions" finished-at="2024-08-01T11:05:06 IST" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_DiscoverServices -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:07 IST" name="close_Browser" finished-at="2024-08-01T11:05:08 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:08 IST" name="aopen_Browser" finished-at="2024-08-01T11:05:16 IST" duration-ms="8112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:16 IST" name="setUp" finished-at="2024-08-01T11:05:16 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_ExlporeAllProductTab()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:16 IST" name="verify_ExlporeAllProductTab" description="ExlporeAllProduct Tab actions" finished-at="2024-08-01T11:05:17 IST" duration-ms="1817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ExlporeAllProductTab -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:18 IST" name="close_Browser" finished-at="2024-08-01T11:05:20 IST" duration-ms="2648" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:20 IST" name="aopen_Browser" finished-at="2024-08-01T11:05:28 IST" duration-ms="7622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:28 IST" name="setUp" finished-at="2024-08-01T11:05:28 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_HomeTab()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:28 IST" name="verify_HomeTab" description="Home Tab actions" finished-at="2024-08-01T11:05:31 IST" duration-ms="3195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HomeTab -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:31 IST" name="close_Browser" finished-at="2024-08-01T11:05:33 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+        <test-method is-config="true" signature="aopen_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:33 IST" name="aopen_Browser" finished-at="2024-08-01T11:05:40 IST" duration-ms="7399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aopen_Browser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:40 IST" name="setUp" finished-at="2024-08-01T11:05:40 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_ProductDropDown()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:40 IST" name="verify_ProductDropDown" description="To Verify Product DropDown" finished-at="2024-08-01T11:05:44 IST" duration-ms="3200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductDropDown -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:tests_AssignmentTask_BlocksOne.Test_Tabs@a3d9978]" started-at="2024-08-01T11:05:44 IST" name="close_Browser" finished-at="2024-08-01T11:05:45 IST" duration-ms="1689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- tests_AssignmentTask_BlocksOne.Test_Tabs -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

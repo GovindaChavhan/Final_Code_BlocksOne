@@ -3,15 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests_AssignmentTask_BlocksOne.Test_AllElements_HP">
+      <class name="tests_AssignmentTask_BlocksOne.Test_Tabs">
         <methods>
-          <include name="open_Browser"/>
-          <include name="setUp"/>
+          <include name="verify_DiscoverServices"/>
+          <include name="verifyLinksContactUs"/>
+          <include name="verifyLinksServices"/>
+          <include name="verifyIndustryWeServe"/>
           <include name="configureFile"/>
           <include name="close_Browser"/>
+          <include name="setUp"/>
+          <include name="aopen_Browser"/>
+          <include name="verify_ProductDropDown"/>
           <include name="verifyNextAndPreviousButtons"/>
+          <include name="verifyLinksCareers"/>
+          <include name="verify_ExlporeAllProductTab"/>
+          <include name="verifyLinksAboutUs"/>
+          <include name="verify_HomeTab"/>
         </methods>
-      </class> <!-- tests_AssignmentTask_BlocksOne.Test_AllElements_HP -->
+      </class> <!-- tests_AssignmentTask_BlocksOne.Test_Tabs -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
